@@ -25,7 +25,7 @@ export function Layout({children}) {
         <Suspense fallback={<Header title={SHOP_NAME_FALLBACK} />}>
           <HeaderWithMenu />
         </Suspense>
-        <h1>remove text</h1>
+        <h1>This is a message need to be remove</h1>
         <main role="main" id="mainContent" className="flex-grow">
           {children}
         </main>
